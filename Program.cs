@@ -1,7 +1,11 @@
+using MVC.Servicio;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IPokemonServicio, PokemonServicio>();
 
 var app = builder.Build();
 

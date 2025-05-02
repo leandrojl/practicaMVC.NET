@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\imagenes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVC.Entidades\MVC.Entidades.csproj" />
+    <ProjectReference Include="..\MVC.Servicio\MVC.Servicio.csproj" />
+  </ItemGroup>
+
 </Project>
